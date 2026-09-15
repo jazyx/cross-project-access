@@ -8,6 +8,8 @@
       color: #ddd;
       background-color: #222;
       margin: 0;
+      display: flex;
+      flex-wrap: wrap;
     }
     img {
       display: inline-block;
@@ -26,5 +28,7 @@
 <body>
   <img src="https://github.com/jazyx/Memory/blob/main/public/images/animals/bear.jpg" alt="Direct Path to bear image">
   <img src="/Memory/blob/main/public/images/animals/bear.jpg" alt="Relative Path to bear image">
+
+  <img src="https://raw.githubusercontent.com/jazyx/Memory/refs/heads/main/public/images/animals/bear.jpg" alt="Path to raw image" title="Path to raw image">
 </body>
 </html>
