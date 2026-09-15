@@ -3,10 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <style>
+    body {
+      color: #ddd;
+      background-color: #222;
+      margin: 0;
+    }
+    img {
+      display: inline-block;
+      width: 50vmin;
+      height: 50vmin;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <title>Cross-Project Access</title>
 </head>
 <body>
-  <img src="https://github.com/jazyx/Memory/blob/main/public/images/animals/bear.jpg" alt="">
-  <img src="/Memory/blob/main/public/images/animals/bear.jpg" alt="">
+  <img src="https://github.com/jazyx/Memory/blob/main/public/images/animals/bear.jpg" alt="Direct Path to bear image">
+  <img src="/Memory/blob/main/public/images/animals/bear.jpg" alt="Relative Path to bear image">
 </body>
 </html>
